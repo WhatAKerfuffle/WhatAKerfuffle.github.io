@@ -9,7 +9,17 @@ html, body {
 	color: #444444;
 	height: 100%;
 }
-
+h1 {
+	font-variant:small-caps;
+	color:444444;
+	margin:0px;
+}
+h2 {
+	border-bottom:1px solid #0a7ed0;
+	font-variant:small-caps;
+	color:444444;
+	padding-top:10px;
+}
 a img {border:0px;}
 
 a:link {color:#0a7ed0;text-decoration: underline;}
@@ -27,6 +37,7 @@ a:hover, a:active, a:focus {color: #044879;text-decoration: underline;}
 	border-right: 1px solid #c3c3c3;
 	background-color: #fff;
 	margin: 0 auto;
+	
 }
 
 .header, .footer {
