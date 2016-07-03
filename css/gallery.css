@@ -8,7 +8,6 @@
 }
 .content {
 	min-height:100%;
-	padding-top:1px !important;
 }
 
 .contentRight {
@@ -32,7 +31,4 @@
 	box-sizing:border-box;
 	margin-left:3px;
 	margin-top:5px;
-}
-.extraSpace {
-	clear:both;
 }

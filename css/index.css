@@ -1,16 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
-h1 {
-	font-variant:small-caps;
-	color:444444;
-	margin:0px;
-}
-h2 {
-	border-bottom:1px solid #0a7ed0;
-	font-variant:small-caps;
-	color:444444;
-	padding-top:10px;
-}
+
 .message {
 	margin:0 auto;
 	background-color:#FF8080;
@@ -20,7 +10,10 @@ h2 {
 	text-align:center;
 	
 }
-.extraSpace1, .extraSpace2 {
+.content {
+	padding-top:50px !important;
+}
+.extraSpace2 {
 	clear:both;
 }
 .contentRight, .contentLeft {
@@ -28,6 +21,7 @@ h2 {
 	float:left;
 	height:100%;
 	padding:5px 0 5px 0;
+		box-sizing:border-box;
 }
 .mainMsg {
  	background: #dadada;
@@ -63,4 +57,5 @@ h2 {
 .mainMsgRight:hover {
 	overflow-y:scroll;
 }
+
 
