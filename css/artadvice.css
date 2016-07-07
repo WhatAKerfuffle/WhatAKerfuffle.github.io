@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+.content {
+	padding-top:10px;
+	min-height:90%;
+}
+.leftContent, .rightContent {
+	min-height:100%;
+	
+}
+
+.leftContent {
+	padding:10px;
+	box-sizing:border-box;
+	float:left;
+	width:70%;
+	margin-left:3px;
+}
+
+.rightContent {
+	padding:10px;
+	height:500px;
+	float:right;
+	width:29%;
+	background-color:#dadada;
+	margin-right:3px;
+	box-sizing:border-box;
+}
+.mainMsg {
+ 	background: #dadada;
+	width:100%;
+	height:500px;
+}
+.mainMsgContainer {
+	width:80%;
+	max-width: 1260px;
+	min-width:780px;
+	margin: 0 auto;
+	padding:0;
+ 	background: #000;
+	overflow:hidden;
+	
+}
