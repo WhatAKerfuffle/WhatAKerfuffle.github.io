@@ -84,8 +84,8 @@ a:hover, a:active, a:focus {color: #044879;text-decoration: underline;}
 	float:left;
 	overflow:none;
 }
-.disqus_thread {
-	padding:5px !important;
+.comments {
+	padding:5px;
 }
 ::-webkit-scrollbar {width:12px;}
 ::-webkit-scrollbar-track {-webkit-box-shadow:inset 0 0 6px rgba(0,0,0,0.3);}
