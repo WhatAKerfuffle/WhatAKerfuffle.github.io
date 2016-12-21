@@ -8,14 +8,18 @@
 	padding:10px;
 	text-align:center;
 }
-.content {padding-top:50px !important;}
-.extraSpace2 {clear:both;}
-.contentRight, .contentLeft {
-	width:50%;
-	float:left;
-	height:100%;
-	padding:5px 0 5px 0;
-	box-sizing:border-box;
+.content {
+padding:50px 5px 50px 5px !important;;}
+h3 {
+	font-variant:small-caps;
+	color:#0a7ed1;
+	padding-top:10px;
+	font-size:22px;
+	padding:0px;
+	margin:0 0 5px 0;
+}
+hr {
+	width:90%;
 }
 .mainMsg {
  	background: #dadada;

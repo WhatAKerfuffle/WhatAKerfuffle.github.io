@@ -2,8 +2,6 @@
 /* CSS Document */
 
 .contentRight, .contentLeft {
-
-	
 	padding:5px 0 5px 0;
 }
 .content {
@@ -27,7 +25,6 @@
 	width:100%;
 	background-color: #dadada;
 	padding:15px;
-
 	box-sizing:border-box;
 	margin-left:3px;
 	margin-top:5px;
