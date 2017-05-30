@@ -60,8 +60,6 @@ html, body {
 	display: table-cell;
 }
 
-.fb-page, .fb-page iframe[style] {width: 100% !important;}
-
 
 @media all and (max-width: 750px) {
 	.container, .secondSectionContainer, .newsfeed {
