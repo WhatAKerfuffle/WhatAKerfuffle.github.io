@@ -61,7 +61,9 @@ html, body {
 }
 
 
-
+.fb-page, .fb-page iframe[style], .fb-page span {
+    width: 100% !important;
+}
 
 
 @media all and (max-width: 750px) {
