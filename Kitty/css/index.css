@@ -23,7 +23,7 @@ html, body {
 .container, .secondSectionContainer, .newsfeed {
 	padding: 5px;
 	min-width: 500px;
-	max-width: 1260px;
+	max-width: 1080px;
 	width: 80%;
 	margin: 0 auto;
 }
