@@ -10,8 +10,17 @@ html, body {
 	height: 100%;
 	font-size: 15px;
 }
-@media all and (max-width: 750px) {
 
+
+@media all and (max-width: 950px) {
+	.container, .secondSectionContainer, .newsfeed {
+		width:100% !important ;
+	}
+}
+@media all and (max-width: 750px) {
+	.container, .secondSectionContainer, .newsfeed {
+		width:100% !important ;
+	}
     .rightPanel {
         display: none !important ;
     }
@@ -20,15 +29,11 @@ html, body {
 	}
 }
 
-
- 
-
-
 .container, .secondSectionContainer, .newsfeed {
 	padding: 5px;
 	min-width: 500px;
 	max-width: 1080px;
-	width: 100%;
+	width: 80%;
 	margin: 0 auto;
 }
 .container, .newsfeed {
