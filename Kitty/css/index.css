@@ -10,7 +10,8 @@ html, body {
 	height: 100%;
 	font-size: 15px;
 }
-@media only screen and (max-width: 950px) {
+@media all and (max-width: 750px) {
+
     .rightPanel {
         display: none !important ;
     }
@@ -20,11 +21,14 @@ html, body {
 }
 
 
+ 
+
+
 .container, .secondSectionContainer, .newsfeed {
 	padding: 5px;
 	min-width: 500px;
 	max-width: 1080px;
-	width: 80%;
+	width: 100%;
 	margin: 0 auto;
 }
 .container, .newsfeed {
