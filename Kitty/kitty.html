@@ -17,21 +17,6 @@
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
-<script>
-var TIMEOUT = null;
-$(window).on('resize', function() {
-    if(TIMEOUT === null) {
-        TIMEOUT = window.setTimeout(function() {
-            TIMEOUT = null;
-            //fb_iframe_widget class is added after first FB.FXBML.parse()
-            //fb_iframe_widget_fluid is added in same situation, but only for mobile devices (tablets, phones)
-            //By removing those classes FB.XFBML.parse() will reset the plugin widths.
-            $('.fb-page').removeClass('fb_iframe_widget fb_iframe_widget_fluid');
-            FB.XFBML.parse();
-        }, 300);
-    }
-});
-</script>
 <div class="container">
 
 <div class="panel">
@@ -96,8 +81,35 @@ Thanks for considering us!
 
 
 <div class="newsfeed">  
+<div class="row">
+  <div class="column-xs-6">
+    <div class="fb-page center-block" data-width="10000" data-adapt-container-width="true" data-href="https://www.facebook.com/KittyAdventureRescue/"></div>
+  </div>
+</div>
 
-<div class="fb-page center-block" data-href="https://www.facebook.com/KittyAdventureRescue/" data-tabs="timeline" data-height="700" data-small-header="false" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false"><blockquote cite="https://www.facebook.com/KittyAdventureRescue/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/KittyAdventureRescue/">Kitty Adventure Rescue League &amp; Sanctuary</a></blockquote></div>
+
+
+<script>
+var TIMEOUT = null;
+$(window).on('resize', function() {
+    if(TIMEOUT === null) {
+        TIMEOUT = window.setTimeout(function() {
+            TIMEOUT = null;
+            //fb_iframe_widget class is added after first FB.FXBML.parse()
+            //fb_iframe_widget_fluid is added in same situation, but only for mobile devices (tablets, phones)
+            //By removing those classes FB.XFBML.parse() will reset the plugin widths.
+            $('.fb-page').removeClass('fb_iframe_widget fb_iframe_widget_fluid');
+            FB.XFBML.parse();
+        }, 300);
+    }
+});
+</script>
+
+
+
+
+
+
 
 </div>
 
