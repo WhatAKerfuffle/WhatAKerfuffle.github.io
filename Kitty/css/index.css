@@ -63,11 +63,7 @@ html, body {
 
 
 
-@media all and (max-width: 950px) {
-	.container, .secondSectionContainer, .newsfeed {
-		width:100% !important ;
-	}
-}
+
 @media all and (max-width: 750px) {
 	.container, .secondSectionContainer, .newsfeed {
 		width:100% !important ;
@@ -76,6 +72,11 @@ html, body {
         display: none !important ;
     }
 	.leftPanel {
+		width:100% !important ;
+	}
+}
+@media all and (max-width: 950px) {
+	.container, .secondSectionContainer, .newsfeed {
 		width:100% !important ;
 	}
 }
