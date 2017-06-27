@@ -35,7 +35,11 @@ hr {
 }
 .mainMsgLeft, .mainMsgRight {float:right;}
 .mainMsgLeft {
-	height:auto;width:30%;font-size:36px;font-variant:small-caps;text-align: center;font-family: Gill Sans MT, Arial, Helvetica, sans-serif;position:relative;top:50%;  transform:translateY(-50%);}
+	height:auto;width:30%;font-size:36px;font-variant:small-caps;text-align: center;font-family: Gill Sans MT, Arial, Helvetica, sans-serif;
+	
+	position:relative;
+	top:50%;  
+	transform:translateY(-50%);}
 .mainMsgRight {
 	height:100%;
 	min-width:480px;
